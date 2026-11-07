@@ -8,8 +8,6 @@ Customers choose the delivery window they want. Admins publish slots with a capa
 3. Frontend (new terminal): cd frontend && cp .env.example .env && npm install && npm run dev
 4. Open http://localhost:5173
 
-Demo logins (from seed): admin@slotdrop.com / admin123, driver@slotdrop.com / driver123, customer@slotdrop.com / customer123
-
 ## API
 POST /api/auth/register | /login, GET /api/auth/me
 GET /api/slots?date=&zone=  (customers see only open slots)
